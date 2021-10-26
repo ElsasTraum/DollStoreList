@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+html lang="zh-TW"
+	head
+		meta charset="UTF-8"/
+		meta name="viewport" content="width=device-width, initial-scale=1.0"/
+		title 娃衣店家整理
+	body
+    .wrapper
+      header
+        h1 娃衣店家整理
+      main
+
+    script[src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"]
+
+    javascript:
+
+      /*var appUrl = $('#appUrl'),
+          sheetsUrl = $('#sheetsUrl'),
+        sheetName = $('#sheetName'),
+        startRow = $('#startRow'),
+        startColumn = $('#startColumn'),
+        sendBtn = $('#sendBtn'),
+        show = $('#show');
+      var parameter = {};
+
+      sendBtn.on('click',function() {
+        parameter = {
+          url: sheetsUrl.val(),
+          name: sheetName.val(),
+          startRow: startRow.val()*1,
+          startColumn: startColumn.val()*1
+        };
+        $.get(appUrl.val(), parameter, function(data) {
+            if(!data){
+              show.text('無資料');
+            }else{
+              show.text(data);
+            }
+        });
+      });*/
+
+
+      var parameter = {
+        url: 'https://docs.google.com/spreadsheets/d/1oR_7KguZ6YThuSx7qJZl5NGRJhuLcOrJAmJMM96O9X4/edit?usp=sharing',
+        name: '工作表1',
+        startRow: 1,
+        startColumn: 1
+      };
+
+

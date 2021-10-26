@@ -1,0 +1,30 @@
+{
+  "name": "dollstorelist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElsasTraum/DollStoreList.git"
+  },
+  "author": "Elsa Cheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElsasTraum/DollStoreList/issues"
+  },
+  "homepage": "https://github.com/ElsasTraum/DollStoreList#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "browserslist": "^4.17.4",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-slim": "^0.3.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "sass": "^1.43.3"
+  }
+}
